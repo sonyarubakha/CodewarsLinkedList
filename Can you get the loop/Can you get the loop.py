@@ -1,4 +1,9 @@
+'''Can you get the loop ? kata'''
 def loop_size(node):
+    '''
+    Finds the size of the loop in linked lists
+    using fast and slow pattern.
+    '''
     slow = node
     fast = node
     while fast and fast.next:
